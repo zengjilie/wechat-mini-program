@@ -1,0 +1,73 @@
+<!--miniprogram/pages/kitCure/kitCure.wxml-->
+
+<view class="container" style="padding-top:{{titleBarHeight}}px">
+  <view class="url" bindtap="back"  >
+    <image  class="img" src="../../images/goback.svg"></image>
+  </view>
+</view>
+
+
+<view class="img-box" style="padding-top:{{titleBarHeight+44}}px">
+  <image class="h-img" src="../../images/cure.svg" ></image>
+</view> 
+
+<view class="scroll">
+
+    <view class="heading">根据病情确定治疗场所。</view>
+    <view class="list">
+      <view class="text" >疑似及确诊病例应在具备有效隔离条件和防护条件的定点医院隔离治疗，疑似病例应单人单间隔离治疗，确诊病例可多人收治在同一病室。</view>
+      <view class="text" >危重型病例应当尽早收入 ICU 治疗。</view>   
+    </view>
+       
+    <view class="line"></view>
+
+    <view class="heading">一般治疗</view>
+    <view class="list">
+      <view class="text" >卧床休息，加强支持治疗，保证充分能量摄入；注意水、电解质平衡，维持内环境稳定；密切监测生命体征、指氧饱和度等。</view>
+      <view class="text" >根据病情监测血常规、尿常规、CRP、生化指标（肝酶、心肌酶、肾功能等）、凝血功能、动脉血气分析、胸部影像学等。有条件者可行细胞因子检测。</view>
+      <view class="text" >及时给予有效氧疗措施，包括鼻导管、面罩给氧和经鼻高流量氧疗。有条件可采用氢氧混合吸入气（H2/O2:66.6%/33.3%）治疗。</view>
+      <view class="text" >抗菌药物治疗:避免盲目或不恰当使用抗菌药物，尤其是联合使用广谱抗菌药物。</view> 
+    </view>
+
+    <view class="line"></view>
+
+    <view class="heading">抗病毒治疗</view>
+    <view class="sub_text">在抗病毒药物应急性临床试用过程中，相继开展了多项临床试验，虽然仍未发现经严格“随机、双盲、安慰剂对照研究”证明有效的抗病毒药物，但某些药物经临床观察研究显示可能具有一定的治疗作用。目前较为一致的意见认为，具有潜在抗病毒作用的药物应在病程早期使用，建议重点应用于有重症高危因素及有重症倾向的患者。</view>
+    <view class="sub_text">不推荐单独使用洛匹那韦/利托那韦和利巴韦林，不推荐使用羟氯喹或联合使用阿奇霉素。以下药物可继续试用，在临床应用中进一步评价疗效。</view>
+    <view class="list">
+      <view class="text" >α-干扰素:成人每次 500 万 U 或相当剂量，加入灭菌注射用水 2ml，每日 2 次，雾化吸入，疗程不超过 10 天；</view>
+      <view class="text" >利巴韦林:建议与干扰素（剂量同上）或洛匹那韦/利托那韦（成人 200mg/50mg/粒，每次 2 粒，每日 2 次）联合应用，成人 500mg/次，每日 2 至 3 次静脉输注，疗程不超过 10 天；</view>
+      <view class="text" >磷酸氯喹:用于 18 岁～65 岁成人。体重大于 50kg 者，每次 500mg，每日２次，疗程 7 天；体重小于 50kg 者，第 1、2 天每次 500mg，每日 2 次，第 3～7 天每次 500mg，每日 1 次；</view>
+      <view class="text" >阿比多尔:成人 200mg，每日３次，疗程不超过 10 天。</view> 
+    </view>
+    <view class="sub_text">要注意上述药物的不良反应、禁忌症以及与其他药物的相互作用等问题。不建议同时应用 3 种以上抗病毒药物，出现不可耐受的毒副作用时应停止使用相关药物。对孕产妇患者的治疗应考虑妊娠周数，尽可能选择对胎儿影响较小的药物，以及考虑是否终止妊娠后再进行治疗，并知情告知。</view>
+
+    <view class="line"></view>
+
+    <view class="heading">免疫治疗</view> 
+    <view class="list">
+      <view class="text" >康复者恢复期血浆:适用于病情进展较快、重型和危重型患者。用法用量参考《新冠肺炎康复者恢复期血浆临床治疗方案（试行第二版）》。</view>
+      <view class="text" >静注 COVID-19 人免疫球蛋白:可应急用于病情进展较快的普通型和重型患者。推荐剂量为普通型 20ml、重型 40ml，静脉输注，根据患者病情改善情况，可隔日再次输注，总次数不超过 5 次。</view>
+      <view class="text" >托珠单抗:对于双肺广泛病变者及重型患者，且实验室检测 IL-6 水平升高者，可试用。具体用法:首次剂量 4～8mg/kg，推荐剂量 400mg，0.9%生理盐水稀释至 100ml，输注时间大于 1小时；首次用药疗效不佳者，可在首剂应用 12 小时后追加应用14一次（剂量同前），累计给药次数最多为 2 次，单次最大剂量不超过 800mg。注意过敏反应，有结核等活动性感染者禁用。</view>
+    </view>
+
+    <view class="line"></view>
+
+    <view class="heading">糖皮质激素治疗。</view> 
+    <view class="sub_text">对于氧合指标进行性恶化、影像学进展迅速、机体炎症反应过度激活状态的患者，酌情短期内（一般建议 3～5 日，不超过 10 日）使用糖皮质激素，建议剂量相当于甲泼尼龙 0.5～1mg/kg/日，应当注意较大剂量糖皮质激素由于免疫抑制作用，可能会延缓对病毒的清除。</view>
+
+    <view class="line"></view>
+
+    <view class="heading">重型、危重型病例的治疗</view> 
+    <view class="list">
+      <view class="text" >治疗原则:在上述治疗的基础上，积极防治并发症，治疗基础疾病，预防继发感染，及时进行器官功能支持。</view>
+      <view class="text" >呼吸支持:用法用量参考《新型冠状病毒肺炎诊疗方案（试行第八版）》。</view>  
+    </view>
+
+    <view class="line"></view>
+
+    <view class="heading">中医治疗</view> 
+    <view class="sub_text">本病属于中医“疫”病范畴，病因为感受“疫戾”之气，各地可根据病情、当地气候特点以及不同体质等情况，参照下列方案进行辨证论治。涉及到超药典剂量，应当在医师指导下使用。用法用量参考《新型冠状病毒肺炎诊疗方案（试行第八版）》</view>
+
+    <view class="end_text"> ————没有更多了————</view>
+</view>

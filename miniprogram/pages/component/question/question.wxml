@@ -1,0 +1,22 @@
+<!-- <cover-view class="space" style="height:{{titleBarHeight+136}}px"/> -->
+
+<view class="box" style="padding-top:{{titleBarHeight+73}}px" >
+  <input class="input" type="text" placeholder="搜索" bindinput='getValue' name="sousuo"></input>
+</view>
+
+<view class="heading" style="padding-top:{{titleBarHeight+44}}px"> 常见问题</view> 
+
+<view class="scroll" style="margin-top:{{titleBarHeight+135}}px">
+  <view class="content" wx:for="{{contentList}}" wx:key="index" wx:for-item="item" wx:for-index="id" >
+    <view class="q">
+      <view class="q-icon" style="">问</view> 
+      <view class="q-text">{{item.question}}</view>
+    </view>
+    <view class="a">
+      <view class="a-icon" style="">答</view>
+      <view class="a-text"  bindtap="extend" data-current="{{item.idx}}" style="{{item.idx == currentTab?'-webkit-line-clamp:0':'-webkit-line-clamp:2'}}">{{item.answer}}</view>
+    </view>
+  </view>
+</view> 
+<view class="end-text">————资料来源于《丁香医生》————</view>
+

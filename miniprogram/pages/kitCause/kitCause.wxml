@@ -1,0 +1,46 @@
+<!--miniprogram/pages/kitCause/kitCause.wxml-->
+<view class="container" style="padding-top:{{titleBarHeight}}px">
+  <view class="url" bindtap="back"  >
+    <image  class="img" src="../../images/goback.svg"></image>
+  </view>
+</view>
+
+
+<view class="img-box" style="padding-top:{{titleBarHeight+44}}px">
+  <image class="h-img" src="../../images/cause.svg" ></image>
+</view> 
+
+
+<view class="scroll">
+
+    <view class="heading">重病高风险人群</view>
+    <view class="sub_text">COVID-19是一种新型疾病，有关重病风险因素的信息仍较为有限。根据目前掌握的信息和临床专业知识，老年人和 患有基础疾病的各年龄段人群因感染COVID-19而患重病的风险更高。</view>
+    
+
+    <view class="line"></view>
+
+    <view class="heading">COVID-19重症风险较高的人该怎么办？</view>
+    <view class="sub_text">如果您属于COVID-19重症高风险人群，您应该：</view>
+    <view class="list">
+      <view class="text" >尽量限制与他人的互动。</view>
+      <view class="text" >与他人互动时，采取防止感染COVID-19的预防措施。</view>
+      <view class="text" >如果你决定参与公共活动，您应继续采取日常预防措施保护自己。</view>
+      <view class="text" >随身携带这些物品并在外出时使用：口罩、纸巾和含至少60%酒精的免洗手消毒液（如可能）。</view>
+      <view class="text" >如可能，远离没有佩戴口罩的其他人或请您周围的其他人佩戴口罩。</view>
+      <view class="text" >如果您或您的访客出现COVID-19症状或在过去14天接触过COVID-19感染者，延迟或取消拜访。</view>
+      <view class="text" >与COVID-19感染者有过密切接触的人应待在家里并监控是否出现症状。</view>
+      <view class="text" >继续服药并且在与您的医疗服务提供者沟通前不要更改您的治疗计划。</view>
+      <view class="text" >至少有30天的处方药和非处方药的储备。</view>
+      <view class="text" >不要因为COVID-19而延迟对您的基础疾病的紧急护理。急诊部制定了应急感染预防计划，在您需要护理时保护您避免感染COVID-19。</view>
+    </view>
+
+    <view class="line"></view>
+
+    <view class="heading">残疾人是否面临着更高的风险？</view>
+    <view class="sub_text">从本质上而言，大多数残疾人感染COVID-19或由此患上重病的风险并不会比一般人更高。某些存在身体缺陷或其他残疾的人由于患有基础疾病而可能面临着更高的感染风险。</view>
+    <view class="sub_text">某些残疾人可能更容易出现慢性健康问题，从而使其更容易因为COVID-19而患上重症，并且预后不佳。成年残疾人患上心脏病、中风、糖尿病或癌症的概率是没有残疾的成年人的三倍。</view>
+    <view class="sub_text">如果您对自己的健康或者目前管理自己健康状况的方式存在疑问，则应与医务人员交谈。。</view>
+
+    
+    <view class="end_text"> ————没有更多了————</view>
+</view>

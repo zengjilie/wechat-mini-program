@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "numbers":"/components/numbers/numbers",
+    "map":"/components/map/map",
+    "trend_in_confirmed":"/components/trend_in_confirmed/trend",
+    "trend_in_import":"/components/trend_in_import/trend",
+    "trend_in_heal":"/components/trend_in_heal/trend",
+    "province":"/components/province/province",
+    "numbers_out":"/components/numbers_out/numbers_out",
+    "map_out":"/components/map_out/map_out",
+    "trend_out_confirmed":"/components/trend_out_confirmed/trend",
+    "trend_out_heal":"/components/trend_out_heal/trend",
+    "trend_out_newConfirmed":"/components/trend_out_newConfirmed/trend",
+    "country":"/components/country/country"
+  }
+}

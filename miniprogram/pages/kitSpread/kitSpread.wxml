@@ -1,0 +1,46 @@
+<!--miniprogram/pages/kitSpread/kitSpread.wxml-->
+<view class="container" style="padding-top:{{titleBarHeight}}px">
+  <view class="url" bindtap="back"  >
+    <image  class="img" src="../../images/goback.svg"></image>
+  </view>
+</view>
+
+
+<view class="img-box" style="padding-top:{{titleBarHeight+44}}px">
+  <image class="h-img" src="../../images/spread.svg" ></image>
+</view> 
+
+<view class="scroll">
+
+    <view class="heading">病毒如何传播？</view>
+    <view class="sub_text">导致COVID-19的病毒被认为主要在人与人之间传播，主要通过感染者咳嗽、打喷嚏或说话时产生的飞沫传播。这些飞沫可以落在附近的人的口鼻中，或者可能被吸入肺部。当人们彼此近距离接触（6英尺以内）时，传播的可能性更大。</view>
+
+    <view class="sub_text">COVID-19在很多受影响地区的社区中似乎可以轻易且持续地传播（“社区传播”）。社区传播意味着人们已经在某个地区感染了这种病毒，其中包括不确定自己是在何处或如何受到感染的人。 </view>
+    
+
+    <view class="line"></view>
+
+    <view class="heading">我会通过食物（包括餐馆外卖、农产品、冷藏或包装食品）或饮水而感染COVID-19吗？</view>
+    <view class="sub_text">人们可能因接触带有病毒的表面或物体（例如食品包装或餐具），然后再接触自己的口鼻或眼睛，而感染COVID-19。但这并不是病毒传播的主要方式。</view>
+    
+
+    <view class="line"></view>
+
+    <view class="heading">温暖的天气会阻止COVID-19的爆发吗？</view>
+    <view class="sub_text">尚不清楚天气和温度是否会影响COVID-19的传播。其他一些其他病毒（如普通感冒和流感）在冬季寒冷天气中传播性更强，但这并不意味着在其他季节就没有感染病毒的风险。有关COVID-19的传播性、严重性和其他特性的知识还需进一步了解，目前仍在调查研究。</view>
+
+    <view class="line"></view>
+
+    <view class="heading">什么是社区传播？</view>
+    <view class="sub_text">社区传播意味着人们已经在某一地区感染了病毒，包括一些不确定他们是如何或在哪里感染的人。各卫生部门根据当地情况确定不同的社区传播方式。要了解有关您所在地区社区传播的信息，请访问当地卫生部门的网站。</view>
+
+    <view class="line"></view>
+
+    <view class="heading">蚊子或扁虱是否能够传播COVID-19病毒？</view>
+    <view class="sub_text">CDC目前还没有数据表明这种新型冠状病毒或其类似的冠状病毒会通过蚊子或扁虱传播。COVID-19传播的主要方式为人传人。参看冠状病毒如何传播，获取更多信息。 </view>
+
+    
+    <view class="end_text"> ————没有更多了————</view>
+</view>
+
+

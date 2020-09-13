@@ -1,0 +1,35 @@
+
+<view class="container" style="padding-top:{{titleBarHeight}}px">
+  <view class="url" bindtap="back"  >
+    <image  class="img" src="../../images/goback.svg"></image>
+  </view>
+</view>
+
+
+<view class="img-box" style="padding-top:{{titleBarHeight+44}}px">
+  <image class="h-img" src="../../images/hospital.svg" ></image>
+</view> 
+
+<view class="scroll">
+
+    <view class="heading">何时就医</view>
+    <view class="sub_text">新型冠状病毒感染的肺炎患者主要临床表现为发热、乏力，呼吸道症状以干咳为主，并逐渐出现呼吸困难，严重者表现为急性呼吸窘迫综合征、脓毒症休克、难以纠正的代谢性酸中毒和出凝血功能障碍。部分患者起病症状轻微，可无发热。多数患者为中轻症，预后良好，少数患者病情危重，甚至死亡。如出现发热、乏力、干咳表现，并不意味着已经被感染了。</view>
+    <view class="sub_text">但如果出现（1）发热 (腋下体温≥37.3℃)、咳嗽、气促等急性呼吸道感染症状；（2）且有武汉旅行或居住史，或发病前14天内曾接触过来自武汉的发热伴呼吸道症状的患者，或出现小范围聚集性发病；应到当地指定医疗机构进行排查、诊治。</view>
+    
+
+    <view class="line"></view>
+
+    <view class="heading">就医时注意事项</view>
+    
+    <view class="list">
+      <view class="text" >如果接触者出现症状，要提前选择有发热门诊的定点医院。</view>
+      <view class="text" >前往医院的路上，及就医全程应该佩戴口罩。</view>
+      <view class="text" >避免搭乘公共交通，应该呼叫救护车或者使用私人车辆运送病人，如果可以，路上打开车窗。</view>
+      <view class="text" >生病的密切接触者应时刻保持呼吸道卫生和进行双手清洁。在路上和医院站着或坐着时，尽可能远离其他人（至少1米）。</view>
+      <view class="text" >任何被呼吸道分泌物或体液污染的物体表面都应该用含有稀释漂白剂的消毒剂清洁、消毒。</view>
+      <view class="text" >就医时，应如实详细讲述患病情况和就医过程，尤其是应告知医生近期的武汉旅行和居住史、肺炎患者或疑似患者的接触史、动物接触史等。</view>
+      
+    </view>
+
+    <view class="end_text"> ————没有更多了————</view>
+</view>

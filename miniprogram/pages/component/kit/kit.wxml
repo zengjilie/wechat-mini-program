@@ -1,0 +1,68 @@
+
+
+<view class="heading" style="padding-top:{{titleBarHeight+44}}px">防疫知识</view>
+<scroll-view class="scroll" style="padding-top:{{titleBarHeight+85}}px">
+  <navigator url="../../pages/kitReview/kitReview" >
+    <view class="box">
+      <image class="img" src="../../../images/file.png"></image>
+      <view class="title">新冠概述</view>
+      <view class="s-title">疾病定义、流行病学</view>
+    </view>
+  </navigator> 
+
+  <navigator url="../../pages/kitCause/kitCause">
+    <view class="box">
+      <image class="img" src="../../../images/file.png"></image> 
+      <view class="title">易感人群</view>
+      <view class="s-title">高危人群、诱发因素</view>
+    </view>
+  </navigator>
+
+  <navigator url="../../pages/kitSpread/kitSpread">
+    <view class="box">
+      <image class="img" src="../../../images/file.png"></image>
+      <view class="title">传播途径</view>
+      <view class="s-title">传播概述、接触传播、飞沫传播</view>
+    </view>
+  </navigator>
+
+  <navigator url="../../pages/kitSymptom/kitSymptom">
+    <view class="box">
+      <image class="img" src="../../../images/file.png"></image>
+      <view class="title">典型症状</view>
+      <view class="s-title">发病症状、常见问题</view>
+    </view>
+  </navigator>
+  <navigator url="../../pages/kitDignose/kitDignose">
+    <view class="box">
+      <image class="img" src="../../../images/file.png"></image>
+      <view class="title">诊断标准</view>
+      <view class="s-title">疑似病例、确诊病例、临床分型</view>
+    </view>
+  </navigator>
+
+  <navigator url="../../pages/kitHospital/kitHospital">
+    <view class="box">
+      <image class="img" src="../../../images/file.png" ></image>
+      <view class="title">就医指南</view>
+      <view class="s-title">以下情况请及时就医</view>
+    </view>
+  </navigator>
+
+  <navigator url="../../pages/kitPrevent/kitPrevent">
+    <view class="box">
+      <image class="img" src="../../../images/file.png"></image>
+      <view class="title">预防措施</view>
+      <view class="s-title">在外如何预防、在家如何预防、饮食</view>
+    </view>
+  </navigator>
+
+  <navigator url="../../pages/kitCure/kitCure">
+    <view class="box">
+      <image class="img" src="../../../images/file.png"></image>
+      <view class="title">治疗方式</view>
+      <view class="s-title">急性期治疗、一般治疗、药物治疗</view>
+    </view>
+  </navigator>
+  <view class="end-space" style="width: 100%;height: 100px;color: #fff;opacity: 0.5; font-size:12px; text-align:center" >——资料来源于《新型冠状病毒肺炎诊疗方案（试行第八版）》——</view>
+</scroll-view>

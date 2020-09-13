@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "component_da-ta":"/pages/component/da-ta/da-ta",
+    "component_news":"/pages/component/news/news",
+    "component_kit":"/pages/component/kit/kit",
+    "component_question":"/pages/component/question/question"
+    
+
+  }
+  
+}

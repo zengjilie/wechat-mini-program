@@ -1,0 +1,55 @@
+<!--miniprogram/pages/kitDignose/kitDignose.wxml-->
+<view class="container" style="padding-top:{{titleBarHeight}}px">
+  <view class="url" bindtap="back"  >
+    <image  class="img" src="../../images/goback.svg"></image>
+  </view>
+</view>
+
+
+<view class="img-box" style="padding-top:{{titleBarHeight+44}}px">
+  <image class="h-img" src="../../images/dignose.svg" ></image>
+</view> 
+
+<view class="scroll">
+
+    <view class="heading">诊断标准</view>
+    <view class="sub_text">根据国家卫健委发布的《新型冠状病毒感染的肺炎诊疗方案（试行第八版）》：</view>
+    <view class="sub_text"></view>
+    
+
+    <view class="line"></view>
+
+    <view class="heading">疑似病例</view>
+    <view class="sub_text">结合下述流行病学史和临床表现综合分析：有流行病学史中的任何一条，且符合临床表现中的任意2条。无明确流行病学史的，符合临床表现中的3条。</view>
+
+    <view class="sub_text">流行病学史</view>
+    <view class="list">
+      <view class="text" >发病前 14 天内有病例报告社区的旅行史或居住史；</view>
+      <view class="text" >发病前 14 天内与新型冠状病毒感染的患者或无症状感染者有接触史；</view>
+      <view class="text" >发病前 14 天内曾接触过来自有病例报告社区的发热或有呼吸道症状的患者；</view>
+      <view class="text" >聚集性发病（2 周内在小范围如家庭、办公室、学校班级等场所，出现 2 例及以上发热和/或呼吸道症状的病例）。</view>
+      
+    </view>
+
+    <view class="sub_text">临床表现</view>
+    <view class="list">
+      <view class="text" >发热和（或）呼吸道症状等新冠肺炎相关临床表现；；</view>
+      <view class="text" >具有上述新冠肺炎影像学特征；</view>
+      <view class="text" >发病早期白细胞总数正常或降低，淋巴细胞计数正常或减少。</view>  
+    </view>
+    
+    <view class="line"></view>
+
+    <view class="heading">确诊病例。</view>
+    <view class="sub_text">疑似病例同时具备以下病原学或血清学证据之一者:</view>
+    <view class="list">
+      <view class="text" >实时荧光 RT-PCR 检测新型冠状病毒核酸阳性；</view>
+      <view class="text" >病毒基因测序，与已知的新型冠状病毒高度同源；</view>
+      <view class="text" >新型冠状病毒特异性 IgM 抗体和 IgG 抗体阳性；</view>  
+      <view class="text" >新型冠状病毒特异性 IgG 抗体由阴性转为阳性或恢复期IgG 抗体滴度较急性期呈 4 倍及以上升高。</view>  
+    </view>
+
+
+
+    <view class="end_text"> ————没有更多了————</view>
+</view>

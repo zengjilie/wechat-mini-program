@@ -1,0 +1,28 @@
+
+<view class="heading" style="padding-top:{{titleBarHeight+44+'px'}}">新冠快讯</view> 
+
+ 
+<scroll-view class="scroll" scroll-y="true" bindscrolltolower="loadVideos"  style="padding-top:{{titleBarHeight+83}}px">
+
+    <view class="video-box" wx:for="{{videoList}}" wx:key="index" wx:for-item="item" wx:for-index="id">
+
+      <video class="video" src="{{currentTab==item.idx?item.URL:''}}" autoplay="{{currentTab==item.idx?true:false}}" custom-cache="{{false}}" objectFit="cover"  bindtap="play" data-current="{{item.idx}}">
+        
+        <image src="{{item.image1}}" style="width:100%;height:100%;postion:absolute;" hidden="{{currentTab==item.idx?true:false}}">
+          <image src="../../../images/play.png" style="position:absolute;height:50px;width:50px;top:calc(50% - 25px);left:calc(50% - 25px)"  ></image>
+        </image>
+      </video> 
+      
+      <view class="v-title">{{item.title}}</view>
+      <view class="v-info">
+        <view class="m-box">
+          <image class="m-image" src="{{item.mediaImg}}"></image>
+          <view class="m-title">{{item.mediaName}}</view>
+        </view>
+        <view class="m-date">{{item.pubTime}}</view>
+      </view>
+    
+    </view>
+</scroll-view>  
+  
+

@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/component/news/news",
+    "pages/component/kit/kit",
+    "pages/component/question/question",
+    "pages/kitReview/kitReview",
+    "pages/kitCause/kitCause",
+    "pages/kitSpread/kitSpread",
+    "pages/kitSymptom/kitSymptom",
+    "pages/kitDignose/kitDignose",
+    "pages/kitHospital/kitHospital",
+    "pages/kitPrevent/kitPrevent",
+    "pages/kitCure/kitCure"
+  ],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

@@ -1,0 +1,36 @@
+<!--miniprogram/pages/kitSymptom/kitSymptom.wxml-->
+
+
+<view class="container" style="padding-top:{{titleBarHeight}}px">
+  <view class="url" bindtap="back"  >
+    <image  class="img" src="../../images/goback.svg"></image>
+  </view>
+</view>
+
+
+<view class="img-box" style="padding-top:{{titleBarHeight+44}}px">
+  <image class="h-img" src="../../images/symptom.svg" ></image>
+</view> 
+
+
+<view class="scroll" >
+
+    <view class="heading">临床症状</view>
+    <view class="sub_text">潜伏期 1～14 天，多为 3～7 天。</view>
+    <view class="list">
+      <view class="text">以发热、干咳、乏力为主要表现；</view>
+      <view class="text">部分患者以嗅觉、味觉减退或丧失等为首发症状，少数患者伴有鼻塞、流涕、咽痛、结膜炎、肌痛和腹泻等症状。</view>
+      <view class="text">重症患者多在发病一周后出现呼吸困难和（或）低氧血症，严重者可快速进展为急性呼吸窘迫综合征、脓毒症休克、难以纠正的代谢性酸中毒和出凝血功能障碍及多器官功能衰竭等。</view>
+      <view class="text">极少数患者还可有中枢神经系统受累及肢端缺血性坏死等表现。值得注意的是重型、危重型患者病程中可为中低热，甚至无明显发热。</view>
+    </view>
+
+    <view class="sub_text">多数患者预后良好，少数患者病情危重，多见于老年人、有慢性基础疾病者、晚期妊娠和围产期女性、肥胖人群。</view>
+
+    <view class="line"></view>
+
+    <view class="heading">儿童症状</view>
+    <view class="sub_text">儿童病例症状相对较轻，部分儿童及新生儿病例症状可不典型，表现为呕吐、腹泻等消化道症状或仅表现为反应差、呼吸急促。极少数儿童可有多系统炎症综合征（MIS-C），出现类似川崎病或不典型川崎病表现、中毒性休克综合征或巨噬细胞活化综合征等，多发生于恢复期。主要表现为发热伴皮疹、非化脓性结膜炎、黏膜炎症、低血压或休克、凝血障碍、急性消化道症状等。一旦发生，病情可在短期内急剧恶化。</view>
+    
+    
+    <view class="end_text"> ————没有更多了————</view>
+</view>

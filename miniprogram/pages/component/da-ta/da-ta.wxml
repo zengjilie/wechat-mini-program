@@ -1,0 +1,43 @@
+<view class="space" style="height:{{titleBarHeight+44+'px'}}"></view>
+
+<cover-view class="container-out">
+  <cover-view class="blurbox"></cover-view>
+  <cover-view class="container">
+    <cover-view class="switch" wx:for="{{list}}" wx:key="index" wx:for-index="idx" data-current="{{idx}}" wx:for-item ="item" bindtap="move">
+      <cover-view class="item-text">{{item.text}}</cover-view>
+    </cover-view>
+    <cover-view class="slider {{extraClasses}}"></cover-view>
+  </cover-view>
+</cover-view>
+
+
+
+<view class="box">
+  <numbers/>
+  <map class="map_in"/>
+  <scroll-view class="map" scroll-x>
+    <view class="container_map">
+      <trend_in_confirmed/>
+      <trend_in_import/>
+      <trend_in_heal/>
+    </view>
+  </scroll-view>
+  <province/>
+
+  <numbers_out/>
+  <map_out />
+  <scroll-view class="map_out" scroll-x>
+    <view class="container_map_out">
+      <trend_out_confirmed/>
+      <trend_out_heal/>
+      <trend_out_newConfirmed/>
+    </view>
+  </scroll-view>
+  <country/>
+  
+  <view class="declare">————新冠数据每日一更————</view>
+    
+  
+</view>
+
+

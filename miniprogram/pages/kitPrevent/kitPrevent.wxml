@@ -1,0 +1,37 @@
+<!--miniprogram/pages/kitPrevent/kitPrevent.wxml-->
+<view class="container" style="padding-top:{{titleBarHeight}}px">
+  <view class="url" bindtap="back"  >
+    <image  class="img" src="../../images/goback.svg"></image>
+  </view>
+</view>
+
+
+<view class="img-box" style="padding-top:{{titleBarHeight+44}}px">
+  <image class="h-img" src="../../images/prevent2.svg" ></image>
+</view> 
+
+<view class="scroll">
+
+    <view class="heading">如何预防</view>
+    <view class="sub_text">在传染病爆发流行时，采取的措施包括针对病原体、易感人群、传播途径和疫源地等方面的措施。</view>
+    <view class="sub_text">新型冠状病毒肺炎暂时没有有效的疫苗，做好个人防护是最切实可行的办法，包括不要去人群聚集处、勤洗手、多饮水、注意休息等。</view>
+    
+
+    <view class="line"></view>
+
+    <view class="heading">具体预防手段如下：</view>
+    
+    <view class="list">
+      <view class="text" >尽量减少外出，不要去人群聚集处，避免近距离接触任何有感冒或流感样症状的人；</view>
+      <view class="text" >外出前往公共场所、就医和乘坐交通工具时，注意佩戴医用外科口罩或N95口罩；</view>
+      <view class="text" >不要接触、购买和食用野生动物（即野味），避免在未加防护的情况下接触野生动物和家禽家畜；</view>
+      <view class="text" >注意手卫生，勤洗手，使用洗手液或肥皂，流水洗手，或使用含酒精成分的免洗洗手液；</view>
+      <view class="text" >打喷嚏或咳嗽时不要用手去捂，要用手肘部或纸巾遮住口、鼻；</view>
+      <view class="text" >居室及工作场所保持清洁，勤开窗，多保持通风状态；</view>
+      <view class="text" >注意多喝水、多休息、避免熬夜、适度运动，以提高个体免疫能力；注意营养、合理饮食，肉类、禽类和蛋类要充分煮熟后食用；</view>
+      <view class="text" >准备常用物资，如体温计、一次性口罩、家庭用消毒用品等。</view>
+      
+    </view>
+
+    <view class="end_text"> ————没有更多了————</view>
+</view>

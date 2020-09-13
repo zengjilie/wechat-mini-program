@@ -1,0 +1,39 @@
+/**app.wxss**/
+
+/* 自定义字体 */
+
+
+@font-face{
+  font-family:'MicrosoftYaHei';
+  src: url('https://7469-tips-coronavirus-h8zry-1302855358.tcb.qcloud.la/fonts/MicrosoftYaHei.ttf?sign=fb07b40244e3b780d47c35008867e761&t=1598349027');
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  
+} 
+
+button {
+  background: initial;
+}
+
+button:focus{
+  outline: 0;
+}
+
+button::after{
+  border: none;
+}
+
+
+page {
+  background: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+

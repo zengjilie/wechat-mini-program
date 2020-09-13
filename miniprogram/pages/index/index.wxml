@@ -1,0 +1,32 @@
+<!-- 手机的工具栏高度 -->
+<cover-view class="space" style="height:{{titleBarHeight}}px"/>
+
+<!-- 自定义navigationbar -->
+<cover-view class="container" style="top:{{titleBarHeight}}px" >
+  <cover-view class="box"> 
+    <cover-image src="{{image}}" class="img"></cover-image>
+    <cover-view class="title">Covid kit '</cover-view>
+  </cover-view>
+</cover-view> 
+
+<!-- 自定义tabbar -->
+<view wx:if="{{currentTab == 0? true: false}}">
+  <component_da-ta/>
+</view>
+<view wx:if="{{currentTab == 1? true: false}}">
+  <component_news/>
+</view>
+<view wx:if="{{currentTab == 2? true: false}}">
+  <component_kit/>
+</view>
+<view wx:if="{{currentTab == 3? true: false}}">
+  <component_question/>
+</view>
+
+
+<cover-view class="tab-bar">
+  <cover-view wx:for="{{list}}" wx:key="index" class="tab-bar-item" wx:for-index="idx" wx:for-item="item" data-path="{{item.pagePath}}" data-current="{{idx}}" bindtap="switchTab">
+    <cover-image src="{{currentTab == idx ? item.selectedIconPath : item.iconPath }}"></cover-image>
+    <cover-view style="color:{{currentTab == idx ? selectedColor : color }}">{{item.text}}</cover-view>
+  </cover-view> 
+</cover-view>  
