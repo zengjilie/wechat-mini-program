@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="heading">各国疫情数据</view>
+  <view class="title-box" >
+    <view class="title1">{{country}}</view>
+    <view class="title">{{curConfirm}}</view>
+    <view class="title">{{confirmed}}</view>
+    <view class="title">{{died}}</view>
+    <view class="title">{{crued}}</view>
+  </view>
+  <view class="content-box" wx:for="{{contentList}}" wx:key="index">
+    <view class="innerbox">
+      <view class="text1">{{item.country}}</view>
+      <view class="text">{{item.curConfirm}}</view>
+      <view class="text">{{item.confirmed}}</view>
+      <view class="text2">{{item.died}}</view>
+      <view class="text">{{item.crued}}</view>
+    </view>
+    <view class="line"></view>
+  </view>
+  <view class="page">
+    <button class="more" bindtap="beforeList" >上一页</button>
+    <button class="more" bindtap="afterList" >下一页</button>
+  </view>
+</view> 

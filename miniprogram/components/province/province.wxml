@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="heading">各省份疫情数据</view>
+  <view class="title-box" >
+    <view class="title" wx:for="{{titleList}}" wx:key="index">{{item.title}}</view>
+  </view>
+  <view class="content-box" wx:for="{{contentList}}"  wx:key="index">
+    <view class="innerbox">
+      <view class="text">{{item.province}}</view>
+      <view class="text">{{item.curConfirm}}</view>
+      <view class="text">{{item.confirmed}}</view>
+      <view class="text">{{item.died}}</view>
+      <view class="text">{{item.crued}}</view>
+    </view>
+    <view class="line"></view>
+  </view>
+  <view class="page">
+    <button class="more" bindtap="beforeList" >上一页</button>
+    <button class="more" bindtap="afterList" >下一页</button>
+  </view>
+</view>

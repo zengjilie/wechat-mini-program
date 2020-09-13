@@ -1,0 +1,19 @@
+/* components/trend_out_confirmed/trend.wxss */ 
+.ec-canvas {
+  width: 100%;
+  height: 342px;
+  
+}
+
+
+.container{
+  margin: auto;
+  margin-left:8px ;
+  margin-right:14px ;
+  width:340px;
+	height: 291px;
+	background-color: #272727;
+	box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.16);
+	border-radius: 24px;
+  
+}

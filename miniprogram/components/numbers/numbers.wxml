@@ -1,0 +1,46 @@
+<!--components/numbers/numbers.wxml-->
+<!-- 国内整体数据 -->
+<view class="container">    
+  <view class="box1">
+    <view class="innerbox">
+      <view class="title">累计确诊</view>
+      <view class="number">{{number.confirmed}}</view>
+      <view class="smallbox">
+        <image class="arrow" src="{{number.confirmedRelative>0? arrowUp:arrowDown}}"></image>
+        <view class="trend">{{number.confirmedRelative}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="box2">
+    <view class="innerbox">
+      <view class="title">累计死亡</view>
+      <view class="number">{{number.died}}</view>
+      <view class="smallbox">
+        <image class="arrow" src="{{number.diedRelative>0? arrowUp:arrowDown}}"></image>
+        <view class="trend">{{number.diedRelative}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="box3">
+    <view class="innerbox">
+      <view class="title">累计治愈</view>
+      <view class="number">{{number.cured}}</view>
+      <view class="smallbox">
+        <image class="arrow" src="{{number.curedRelative>0? arrowUp:arrowDown}}"></image>
+        <view class="trend">{{number.curedRelative}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="box4">
+    <view class="innerbox">
+      <view class="title">境外输入</view>
+      <view class="number">{{number.overseasInput}}</view>
+      <view class="smallbox">
+        <image class="arrow" src="{{number.overseasInputRelative>0? arrowUp:arrowDown}}"></image>
+        <view class="trend">{{number.overseasInputRelative}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+

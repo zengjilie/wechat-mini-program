@@ -1,0 +1,6 @@
+<!--components/map/map.wxml-->
+
+<view class="container">
+  <ec-canvas class="ec-canvas" id="mychart-dom-area" canvas-id="mychart-area" ec="{{ ec }}" force-use-old-canvas="true"></ec-canvas>
+</view>
+

@@ -1,0 +1,49 @@
+<!--components/numbers_out/numbers_out.wxml-->
+<!--components/numbers/numbers.wxml-->
+<!-- 国外整体数据 -->
+<view class="heading">国外疫情数据</view>
+<view class="container">    
+  <view class="box1">
+    <view class="innerbox">
+      <view class="title">累计确诊</view>
+      <view class="number">{{number.confirmed}}</view>
+      <view class="smallbox">
+        <image class="arrow" src="{{number.confirmedRelative>0? arrowUp:arrowDown}}"></image>
+        <view class="trend">{{number.confirmedRelative}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="box2">
+    <view class="innerbox">
+      <view class="title">累计死亡</view>
+      <view class="number">{{number.died}}</view>
+      <view class="smallbox">
+        <image class="arrow" src="{{number.diedRelative>0? arrowUp:arrowDown}}"></image>
+        <view class="trend">{{number.diedRelative}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="box3">
+    <view class="innerbox">
+      <view class="title">现存确诊</view>
+      <view class="number">{{number.curConfirm}}</view>
+      <view class="smallbox">
+        <image class="arrow" src="{{number.curConfirmRelative>0? arrowUp:arrowDown}}"></image>
+        <view class="trend">{{number.curConfirmRelative}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="box4">
+    <view class="innerbox">
+      <view class="title">累计治愈</view>
+      <view class="number">{{number.cured}}</view>
+      <view class="smallbox">
+        <image class="arrow" src="{{number.cured>0? arrowUp:arrowDown}}"></image>
+        <view class="trend">{{number.curedRelative}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+
